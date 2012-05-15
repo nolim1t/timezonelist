@@ -1,0 +1,23 @@
+{
+	"name": "timezonelist",
+	"description": "List of all the timezones",
+	"version": "0.1",
+	"homepage": "https://github.com/nolim1t/timezonelist",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nolim1t/timezonelist.git"
+	},
+	"author": "Barry Teoh <barry.teoh@gmail.com>",
+	"keywords": [
+		"directory",
+		"list",
+		"timezones"
+	],
+	"main": "./lib/timezones.coffee",
+	"directories": {
+		"lib": "lib"
+	},
+	"engines": {
+		"node": ">=0.6.4"
+	}
+}
